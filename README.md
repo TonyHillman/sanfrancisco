@@ -4,22 +4,22 @@ Data Mining course project based on the data sets from https://data.sfgov.org/
 # SF Fire Incident Data Analysis
 
 ## Project Overview
-A data mining workflow built in **KNIME Analytics Platform**.
-**GOAL:** Identify neighborhoods in San Francisco area that are at higher risk of dangerous fires than other neighborhoods.
-**DATASET:** San Francisco Fire Incident public data https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric/about_data
+A data mining workflow built in **KNIME Analytics Platform**.  
+**GOAL:** Identify neighborhoods in San Francisco area that are at higher risk of dangerous fires than other neighborhoods.  
+**DATASET:** San Francisco Fire Incident public data https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric/about_data  
 
 ## Workflow
 <img width="1767" height="847" alt="image" src="https://github.com/user-attachments/assets/e8c18858-45e6-4488-8d27-939da85eeb8b" />
 
 
 ### Key Nodes:
-**CSV Reader** Import raw csv data
-**Math Formula** Used to sum Estimated Property Loss and Estimated Contents Loss to calculate Total Losses
-**Bar Chart** Visualization of neighborhoods sorted by Total Losses
-**Date & Time Difference** Used to calculate Response Time from Alarm DateTime and Arrival DateTime
-**K-Means** Used to cluster events by Response Time and other variables that correlate to the severity of the fire
-**Parallel Coordinates Plot** Visualization of clustered events
-**Bar Chart** Visualization of Neighborhoods sorted by their count of events in cluster 3
+**CSV Reader** Import raw csv data  
+**Math Formula** Used to sum Estimated Property Loss and Estimated Contents Loss to calculate Total Losses  
+**Bar Chart** Visualization of neighborhoods sorted by Total Losses  
+**Date & Time Difference** Used to calculate Response Time from Alarm DateTime and Arrival DateTime  
+**K-Means** Used to cluster events by Response Time and other variables that correlate to the severity of the fire  
+**Parallel Coordinates Plot** Visualization of clustered events  
+**Bar Chart** Visualization of Neighborhoods sorted by their count of events in cluster 3  
 
 ## How to Run
 1. Download and install [KNIME Analytics Platform](https://www.knime.com/).
